@@ -2,10 +2,41 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-bottom: 0px;
-  color: #5a5a5a;
+body,html{
+      /*margin-left:100px;*/
+      /*font-family: 'Lato', sans-serif;*/
+      /*font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;*/
+      font-family: 'Open Sans', sans-serif;
+      padding-left:0px;
+      letter-spacing: 0.5px;
+      font-weight: 300;
+      color:#555;
+      /*background:#fff;*/
+      /*background:#eaeaea;*/
+      background: #E9EAED;
+      /*background: #d9d9d9;*/
+      /*height:100%;
+      max-height: 100%;
+      "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif"
+      */
 }
+
+a{
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover,
+a.hover,
+a:active,
+a.active,
+a:focus,
+a.focus{
+    color: #888;
+    outline: none;
+    text-decoration: none;
+}
+
 .center-blocky2 {
                 max-width: 960px;
                 /*padding: 5px 5px 5px;*/
@@ -14,6 +45,47 @@ body {
 
 }
 
+.img-circle1{
+  background: url(assets/img/arxiki/circle4.png) no-repeat center center;
+  background-size: cover;
+  background-color:#fff;
+  padding:4px;
+  max-width:150px;
+  width:150px;
+  height:150px;
+  margin:20px auto 20px;
+  box-shadow:0px 2px 10px #333;
+  display:block;
+  border-radius: 50%;
+}
+
+.img-circle2{
+  background: url(assets/img/arxiki/circle5.png) no-repeat center center;
+  background-size: cover;
+  background-color:#fff;
+  padding:4px;
+  max-width:150px;
+  width:150px;
+  height:150px;
+  margin:20px auto 20px;
+  box-shadow:0px 2px 10px #333;
+  display:block;
+  border-radius: 50%;
+}
+
+.img-circle3{
+  background: url(assets/img/arxiki/circle2.jpg) no-repeat center center;
+  background-size: cover;
+  background-color:#fff;
+  padding:4px;
+  max-width:150px;
+  width:150px;
+  height:150px;
+  margin:20px auto 20px;
+  box-shadow:0px 2px 10px #333;
+  display:block;
+  border-radius: 50%;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -76,7 +148,7 @@ body {
     position: absolute;
     z-index: 3;
     display: block;
-    background: url(assets/img/maxresdefault1.jpg) 90% 30% / cover no-repeat;
+    background: url(assets/img/maxresdefault1.jpg) 90% 60% / cover no-repeat;
     height: auto;
     min-height: 500px;
     box-shadow: rgb(153, 153, 153) 0px 5px 20px;
@@ -84,6 +156,45 @@ body {
     margin-bottom: 0px;
 }
 
+.carousely1{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    display: block;
+    background: url(assets/img/genethlia/genethliacover.jpg) 90% 1% / cover no-repeat;
+    height: auto;
+    min-height: 500px;
+    box-shadow: rgb(153, 153, 153) 0px 5px 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.carousely2{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    display: block;
+    background: url(assets/img/ekdiloseis/genethlia2.jpg) 90% 70% / cover no-repeat;
+    height: auto;
+    min-height: 500px;
+    box-shadow: rgb(153, 153, 153) 0px 5px 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.carousely3{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    display: block;
+    background: url(assets/img/genethlia/photostudio_1485721526819.jpg) 90% 70% / cover no-repeat;
+    height: auto;
+    min-height: 500px;
+    box-shadow: rgb(153, 153, 153) 0px 5px 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+photostudio_1485721526819.jpg
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
