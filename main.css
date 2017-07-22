@@ -10,7 +10,7 @@ body,html{
       padding-left:0px;
       letter-spacing: 0.5px;
       font-weight: 300;
-      color:#555;
+      color:#111;
       /*background:#fff;*/
       /*background:#eaeaea;*/
       background: #E9EAED;
@@ -22,8 +22,12 @@ body,html{
 }
 
 a{
-  color: #555;
+  color: #222;
   text-decoration: none;
+}
+
+h2{
+  font-size:40px !important;
 }
 
 a:hover,
@@ -177,7 +181,7 @@ a.focus{
     position: absolute;
     z-index: 3;
     display: block;
-    background: url(assets/img/genethlia/genethliacover.jpg) 90% 1% / cover no-repeat;
+    background: url(assets/img/genethlia/genethliacover.jpg) 90% 7% / cover no-repeat;
     height: auto;
     min-height: 500px;
     box-shadow: rgb(153, 153, 153) 0px 5px 20px;
@@ -190,7 +194,7 @@ a.focus{
     position: absolute;
     z-index: 3;
     display: block;
-    background: url(assets/img/ekdiloseis/genethlia2.jpg) 90% 70% / cover no-repeat;
+    background: url(assets/img/ekdiloseis/ekdiloseis.jpg) 90% 70% / cover no-repeat;
     height: auto;
     min-height: 500px;
     box-shadow: rgb(153, 153, 153) 0px 5px 20px;
